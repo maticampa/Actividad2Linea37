@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Línea 37</title>
+
+    <link rel="stylesheet" href="estilos/css.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="header-container">
+
+            <h1 class="logo">Línea 37</h1>
+
+            <nav>
+                <ul class="menu">
+                    <li><a href="#recorridos">Recorridos</a></li>
+                    <li><a href="#horarios">Horarios</a></li>
+                    <li><a href="#paradas">Paradas</a></li>
+                    <li><a href="#accesibilidad">Accesibilidad</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <h2>Servicios</h2>
+        <p>Gestión y soporte</p>
+
+        <a href="#">
+            <span class="material-symbols-outlined">traffic</span>
+            Estado del Servicio
+        </a>
+
+        <a href="#contacto">
+            <span class="material-symbols-outlined">help</span>
+            Centro de Ayuda
+        </a>
+
+        <a href="#contacto">
+            <span class="material-symbols-outlined">travel_explore</span>
+            Objetos Perdidos
+        </a>
+
+        <a href="#contacto">
+            <span class="material-symbols-outlined">contact_support</span>
+            Contacto
+        </a>
+
+    </aside>
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- ESTADO -->
+        <section class="status-bar">
+
+            <div class="status-left">
+                <span class="material-symbols-outlined">check_circle</span>
+                <p>SERVICIO NORMAL</p>
+            </div>
+
+            <span class="status-time">
+                Actualizado hace menos de 1 minuto
+            </span>
+
+        </section>
+
+        <!-- HERO -->
+        <section class="hero">
+
+            <img src="Imagenes/linea-37-.avif"
+                alt="Colectivo Línea 37">
+
+            <div class="hero-text">
+                <h2>Línea 37</h2>
+                <p>
+                    Conectando Lanús con Ciudad Universitaria
+                    de manera eficiente y segura.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- DESTINOS -->
+        <section class="cards">
+
+            <div class="card">
+                <span class="material-symbols-outlined">location_on</span>
+                <h3>Lanús</h3>
+                <p>Punto de inicio en Zona Sur.</p>
+            </div>
+
+            <div class="card">
+                <span class="material-symbols-outlined">account_balance</span>
+                <h3>Congreso</h3>
+                <p>Conexión con el centro histórico.</p>
+            </div>
+
+            <div class="card">
+                <span class="material-symbols-outlined">park</span>
+                <h3>Palermo</h3>
+                <p>Acceso a parques y centros comerciales.</p>
+            </div>
+
+            <div class="card">
+                <span class="material-symbols-outlined">school</span>
+                <h3>Ciudad Universitaria</h3>
+                <p>Destino final sedes UBA.</p>
+            </div>
+
+        </section>
+
+        <!-- MAPA -->
+        <section class="map-section" id="recorridos">
+
+            <div class="map">
+
+                <h2>Recorrido del Servicio</h2>
+
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpmwVgTQY1S1dd3y1raV6uyoBilx2qc9vSCzyCVHONcYOJauUNG4n0ZZLRHdijwWiTz-1DCwfOxyoCN03OTZpUV1sETJ8_EvhCwenTP-1WZA88Z6RUZzGXA5wVU05mSCWaInRt_yq9-MdZYcc5rtkEgvbCDE70dhFKlcIF-PQBAEIq5UJjIGwqrgaFp22pv7rWiNPPZbA3-wfrB5bZDcgRoUMQjqu50vl88LcT0WzIvmLdz31SJvkCTZcx4B85ykn_16TWpIG2_SXw"
+                    alt="Mapa Línea 37">
+
+            </div>
+
+            <div class="stops">
+
+    <h2>Paradas Principales</h2>
+
+    <div class="stop-item active">
+
+        <div class="circle"></div>
+
+        <div class="stop-info">
+            <h4>Estación Lanús</h4>
+            <p>Inicio recorrido sur</p>
+        </div>
+
+        <span class="time">2 min</span>
+
+    </div>
+
+    <div class="stop-item">
+
+        <div class="circle"></div>
+
+        <div class="stop-info">
+            <h4>Plaza Constitución</h4>
+            <p>Trasbordo Tren Roca</p>
+        </div>
+
+        <span class="time">14 min</span>
+
+    </div>
+
+    <div class="stop-item">
+
+        <div class="circle"></div>
+
+        <div class="stop-info">
+            <h4>Congreso</h4>
+            <p>Av. Rivadavia y Callao</p>
+        </div>
+
+        <span class="time">28 min</span>
+
+    </div>
+
+    <div class="stop-item">
+
+        <div class="circle"></div>
+
+        <div class="stop-info">
+            <h4>Universidad de Palermo</h4>
+            <p>Sede Diseño y Comunicación</p>
+        </div>
+
+        <span class="time">35 min</span>
+
+    </div>
+
+    <div class="parada-item">
+    <div class="parada-punto"></div>
+
+
+    <div class="stop-item final">
+
+        <div class="circle"></div>
+
+        <div class="stop-info">
+            <h4>Ciudad Universitaria</h4>
+            <p>Terminal Norte</p>
+        </div>
+
+        <span class="time">55 min</span>
+
+    </div>
+
+</div>
+
+<section class="info-paradas">
+    <h2>Información Relevante de Paradas</h2>
+
+    <div class="info-grid">
+
+        <div class="info-card">
+            <div class="info-icono"></div>
+
+            <div>
+                <h3>Estación Lanús</h3>
+                <p>
+                    Centro de trasbordo clave con el Tren Roca 
+                    (Ramales Ezeiza/Glew) y múltiples líneas 
+                    de colectivos locales.
+                </p>
+            </div>
+        </div>
+
+        <div class="info-card">
+            <div class="info-icono"></div>
+
+            <div>
+                <h3>Congreso</h3>
+                <p>
+                    Acceso inmediato a la Línea A de Subte.
+                    Punto estratégico por su cercanía a edificios
+                    comerciales y gubernamentales.
+                </p>
+            </div>
+        </div>
+
+        <div class="info-card">
+            <div class="info-icono"></div>
+
+            <div>
+                <h3>Univ. de Palermo</h3>
+                <p>
+                    Parada principal para estudiantes de la sede
+                    Diseño y Comunicación. Gran flujo de personas
+                    cerca de Av. Córdoba.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+</div>
+
+</section>
+
+
+<!-- RECORRIDO NUEVO -->
+<section class="recorrido-horizontal" id="paradas">
+
+    <h2>Recorrido Completo</h2>
+
+    <div class="contenedor-horizontal">
+
+        <div class="caja-recorrido">
+            <h3>🟡 Ida a Lanús</h3>
+            <p>
+                <strong>Salida:</strong> Ciudad Universitaria<br><br>
+
+                Av. Intendente Güiraldes → Av. Cantilo → Puente Ángel Labruna → 
+                Av. Lugones → La Pampa → Palermo<br><br>
+
+                <strong>Zona Centro:</strong><br>
+                Av. Santa Fe → Plaza Italia → Av. Las Heras → 
+                Rodríguez Peña → Congreso<br><br>
+
+                <strong>Zona Sur:</strong><br>
+                Av. Brasil → Av. Entre Ríos → Av. Pavón → 
+                Av. Hipólito Yrigoyen → Lanús
+                </p>
+        </div>
+
+        <div class="caja-recorrido">
+            <h3>🔵 Regreso a Ciudad Universitaria</h3>
+            <p>
+             <strong>Salida:</strong> Lanús<br><br>
+
+             Av. Hipólito Yrigoyen → Av. Pavón → 
+             Puente Victorino de la Plaza<br><br>
+
+             <strong>Centro:</strong><br>
+             Av. Entre Ríos → Av. Callao → Plaza Italia → 
+             Av. Sarmiento<br><br>
+
+             <strong>Destino Final:</strong><br>
+             Av. Figueroa Alcorta → Puente Scalabrini Ortiz → 
+             Ciudad Universitaria
+             </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FRECUENCIAS -->
+        <section class="table-section" id="horarios">
+
+            <h2>Frecuencia de Servicios</h2>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Horario</th>
+                        <th>Días hábiles</th>
+                        <th>Sábados</th>
+                        <th>Domingos</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>05:00 - 08:00</td>
+                        <td>6 - 8 min</td>
+                        <td>12 min</td>
+                        <td>15 min</td>
+                    </tr>
+
+                    <tr>
+                        <td>08:00 - 20:00</td>
+                        <td>4 - 6 min</td>
+                        <td>10 min</td>
+                        <td>12 min</td>
+                    </tr>
+
+                    <tr>
+                        <td>20:00 - 00:00</td>
+                        <td>10 - 12 min</td>
+                        <td>15 min</td>
+                        <td>20 min</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+<!-- ACCESIBILIDAD -->
+<section class="accesibilidad" id="accesibilidad">
+
+    <h2>Compromiso con la Accesibilidad</h2>
+
+    <p class="accesibilidad-texto">
+        Nuestra flota y personal están preparados para brindar un servicio inclusivo
+        para todos los pasajeros.
+    </p>
+
+    <div class="accesibilidad-grid">
+
+        <div class="accesibilidad-item">
+            <span class="material-symbols-outlined">accessible_forward</span>
+
+            <h3>Rampas de Acceso</h3>
+
+            <p>
+                Sistemas hidráulicos en toda la flota.
+            </p>
+        </div>
+
+        <div class="accesibilidad-item">
+            <span class="material-symbols-outlined">wheelchair_pickup</span>
+
+            <h3>Espacios Exclusivos</h3>
+
+            <p>
+                Áreas amplias con anclajes de seguridad.
+            </p>
+        </div>
+
+        <div class="accesibilidad-item">
+            <span class="material-symbols-outlined">visibility</span>
+
+            <h3>Alta Visibilidad</h3>
+
+            <p>
+                Señalética y carteles LED dinámicos.
+            </p>
+        </div>
+
+        <div class="accesibilidad-item">
+            <span class="material-symbols-outlined">support_agent</span>
+
+            <h3>Personal Capacitado</h3>
+
+            <p>
+                Asistencia empática en todo momento.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+        <!-- CONTACTO -->
+        <section class="contact-section" id="contacto">
+
+            <h2>Contactos de Emergencia</h2>
+
+            <div class="contact-cards">
+
+                <div class="contact-card">
+                    <span class="material-symbols-outlined">call</span>
+                    <h3>911 Emergencias</h3>
+                </div>
+
+                <div class="contact-card">
+                    <span class="material-symbols-outlined">mail</span>
+                    <h3>emergencias@linea37.com.ar</h3>
+                </div>
+
+                <div class="contact-card">
+                    <span class="material-symbols-outlined">location_on</span>
+                    <h3>Lanús, Buenos Aires</h3>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-container">
+
+            <div>
+                <h3>Línea 37</h3>
+                <p>Transporte público de pasajeros - AMBA</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#">Privacidad</a>
+                <a href="#">Términos</a>
+                <a href="#">Accesibilidad</a>
+            </div>
+
+            <p>© 2024 Línea 37</p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
